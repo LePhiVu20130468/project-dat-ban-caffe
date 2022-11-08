@@ -10671,6 +10671,15 @@ textarea.tt-hint {
   margin-bottom: 1rem;
 }
 
+.form-group #eyeicon {
+    width: 20px;
+    position: absolute;
+    top: 385px;
+    right: 80px;
+    color: blue;
+    cursor: pointer;
+}
+
 .form-text {
   display: block;
   margin-top: 0.25rem;
@@ -28382,7 +28391,7 @@ div.tagsinput span.tag a {
 }
 
 .auth .brand-logo img {
-  width: 100px;
+  width: 140px;
 }
 
 .auth form .form-group {
