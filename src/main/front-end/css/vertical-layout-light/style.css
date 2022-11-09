@@ -10130,6 +10130,10 @@ pre code {
   }
 }
 
+body {
+  background-color: red;
+}
+
 .table, .jsgrid .jsgrid-table {
   width: 100%;
   margin-bottom: 1rem;
@@ -10672,12 +10676,49 @@ textarea.tt-hint {
 }
 
 .form-group #eyeicon {
-    width: 20px;
-    position: absolute;
-    top: 385px;
-    right: 80px;
-    color: blue;
-    cursor: pointer;
+  width: 20px;
+  position: absolute;
+  top: 385px;
+  right: 80px;
+  color: blue;
+  cursor: pointer;
+}
+
+.form-group #eyeicon_res {
+  width: 20px;
+  position: absolute;
+  top:31%;
+  right: 20px;
+  cursor: pointer;
+}
+
+div.form-group input.test:focus {
+  border-color: #6a5af9;
+  border-radius: 4px;
+}
+
+div.test_input {
+  position: relative;
+}
+
+div.test_input label {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  left: 1.94rem;
+  user-select: none;
+  color: #d3c8c8;
+  pointer-events: none;
+  transition: 0.25s ease;
+  font-size: 500px;
+}
+
+input.test:focus + label#so_dien_thoai {
+  top: 0;
+  padding: 8px 20px;
+  display: inline-block;
+  background-color: #f7d7d3;
+  color: #6a5af9;
 }
 
 .form-text {
@@ -30603,3 +30644,4 @@ div.tagsinput span.tag a {
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
