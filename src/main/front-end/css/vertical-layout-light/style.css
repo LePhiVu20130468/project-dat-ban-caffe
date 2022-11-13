@@ -10678,8 +10678,8 @@ textarea.tt-hint {
 .form-group #eyeicon {
   width: 20px;
   position: absolute;
-  top: 385px;
-  right: 80px;
+  top: 46.5%;
+  right: 11%;
   color: blue;
   cursor: pointer;
 }
