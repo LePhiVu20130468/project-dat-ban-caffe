@@ -57,7 +57,7 @@
     + Tables
     + Tabs
     + Timeline
-    + Todo List
+
     + Tooltips
     + User Profile
     + Pricing table
@@ -10863,22 +10863,26 @@ textarea.tt-hint {
     margin-bottom: 1rem;
 }
 
+
 .form-group #eyeicon {
     width: 20px;
     position: absolute;
-    top: 46.5%;
+    top: 0.0%;
     right: 17%;
-    color: blue;
     cursor: pointer;
 }
 
-.form-group #eyeicon_res {
+.form-group .eyeicon_res {
     width: 20px;
     position: absolute;
-    top: 61%;
+    top: 0%;
     right: 17%;
     cursor: pointer;
 }
+
+
+
+
 
 div.form-group input.test:focus {
     border-color: #6a5af9;
